@@ -1,6 +1,0 @@
-
-
-
-// npm install --save rn-fetch-blob
-
-react-native link rn-fetch-blob
