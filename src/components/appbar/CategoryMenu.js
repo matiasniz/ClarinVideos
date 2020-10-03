@@ -48,7 +48,7 @@ const ModalCategory = () => {
             />
 
             <TouchableHighlight
-              style={{...styles.openButton, backgroundColor: '#1d6d4d'}}
+              style={{...styles.openButton, backgroundColor: '#2d6d4d'}}
               onPress={() => {
                 setModalVisible(!modalVisible);
               }}>
