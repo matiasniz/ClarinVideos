@@ -48,7 +48,7 @@ export function* getVideos(data) {
         },
       });
     } else {
-      yield put({type: FETCH_VIDEOS_FAILURE, error});
+      yield put({type: FETCH_VIDEOS_FAILURE, error: 'error'});
     }
   } catch (error) {
     yield put({type: FETCH_VIDEOS_FAILURE, error});
